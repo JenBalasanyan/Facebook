@@ -1,0 +1,94 @@
+*{
+	margin:0;
+	padding:0;
+
+}
+body>div{
+	height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+	width: 350px;
+	padding: 18px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 20px 0px;
+
+}
+button.signup { 
+    border: none;
+    background-color: blue;
+    color: white;
+    margin: auto;
+    width: 200px;
+    display: block;
+    border-radius: 15px;
+    padding: 10px 0;
+    font-weight: bold;
+	margin-top:20px;
+}
+button.Login{
+	border: none;
+	background-color: green;
+	margin: auto;
+    width: 200px;
+    display: block;
+    border-radius: 15px;
+    padding: 10px 0;
+    font-weight: bold;
+	margin-top:20px;
+}
+div.firstname input{
+	display: inline;
+	margin: auto;
+	width: 160px;
+	padding: 10px 3px;
+	border-radius: 5px;
+	text-align: left;
+	color: black;
+	font-family: 'segoe UI';
+	font-size: 15px;
+}
+.line{
+	border-top: 1px solid gray;
+	opacity: 0.5;
+	margin: 10px 0;
+}
+div.big input{
+	display: inline;
+	margin: auto;
+	margin-top: 10px;
+	width: 340px;
+	padding: 10px 0px;
+	border-radius: 5px;
+	text-align: left;
+	color: black;
+	font-family: 'segoe UI';
+	font-size: 15px;
+}
+p{
+	color:gray;
+	margin:1px;
+}
+button.Login a{ 
+    border: none;
+    background-color: green;
+    color: white;
+    margin: auto;
+    width: 190px;
+    display: block;
+    border-radius: 5px;
+    padding: 0px 0;
+    font-weight: bold;
+}
+
+@media (max-width:950px){
+	body{
+       font-size: 14px;
+
+	}
+	form{
+		padding: 10px;
+	}
+}
